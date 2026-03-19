@@ -1,0 +1,35 @@
+20260304 메모할 점
+
+mouse wheel zoom
+
+
+
+파일명은 대소문자 구분함
+mime type
+
+
+
+컨텐츠와 속성 구분
+
+
+    h1{노란색}*6
+태크 {}
+클래스 .
+id #
+
+h2*10
+
+
+lorem7   7개 단어
+
+
+viewport가 기기 넓이에 맞추고 초기 배율은 1
+
+uri/url
+identifier
+name
+locator - 어느 위치에 존재
+
+https - hypertext transfer protocol
+s -- ssl   - 핸드쉐이크 - 백엔드
+

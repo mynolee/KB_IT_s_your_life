@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form
+      method="get"
+      action="https://port-0-kb7-back-node-mmc3pmla14c7b8b4.sel3.cloudtype.app/vote"
+    >
+      <fieldset>
+        <legend>강아지 vs 고양이 투표</legend>
+        <table>
+          <tr>
+            <td><label for="name">이름</label></td>
+            <td><input id="name" type="text" name="name" value="name" /></td>
+          </tr>
+          <tr>
+            <td>선호 상</td>
+            <td>
+              <input choice="dog" type="radio" name="choice" value="dog" />
+              <label for="dog">강아지</label>
+              <input choice="cat" type="radio" name="choice" value="cat" />
+              <label for="cat">고양이</label>
+            </td>
+          </tr>
+        </table>
+        <input type="submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
