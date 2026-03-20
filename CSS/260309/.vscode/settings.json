@@ -1,0 +1,7 @@
+{
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "all",
+    "prettier.requireConfig": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "notebook.defaultFormatter": "esbenp.prettier-vscode"
+}

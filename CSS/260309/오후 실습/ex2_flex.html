@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 1000px;
+            height: 100px;
+        }
+
+        .container{
+            display:flex;
+            justify-content: center;
+
+        }
+        .box{
+            font-size: 30px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+        .box:first-child{
+            border-radius: 30% 0 0 30%;
+            background-color: orange;
+        }
+        .box:nth-child(2n){
+            background-color: skyblue;
+        }
+        .box:nth-child(2n+1){
+            background-color: orange;
+        }
+        .box:last-child{
+            border-radius: 0 30% 30% 0;
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">첫 번째</div>
+        <div class="box">두 번째</div>
+        <div class="box">세 번째</div>
+        <div class="box">네 번째</div>
+        <div class="box">다섯번째</div>
+        <div class="box">여섯번째</div>
+        <div class="box">일곱번째</div>
+    </div>
+
+</body>
+</html>
